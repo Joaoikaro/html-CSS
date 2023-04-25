@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.404);
+            border-radius: 4px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: cyan
+        }
+        
+
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.432);
+            border-radius: 6px;
+        }
+
+        article > aside {
+            background-color: rgb(155, 155, 155);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            border-radius: 3px;
+        }
+
+        footer >  p {
+            margin: 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.404);
+        }
+
+        #bola{
+            background-color: aliceblue;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(49, 45, 49, 0.185);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odio ducimus quod omnis corporis in quibusdam quos natus fugit totam. Consequuntur minus perferendis sit iusto ipsum est vero eaque impedit.</p>
+                <aside>
+                    <p>artigo escrito por João Ikaro</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>desenvolvido por João Ikaro</p>
+    </footer>
+
+    <div id="bola"></div>
+    
+</body>
+</html>
