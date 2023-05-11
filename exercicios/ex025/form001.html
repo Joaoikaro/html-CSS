@@ -34,17 +34,19 @@
 
                     form > p > input:hover {
                               background-color: rgb(255, 255, 255);
-                              color: rgb(0, 0, 78);
+                              color: rgb(0, 0, 116);
+                              border: 1px solid  rgba(255, 238, 0, 0.87);
+                              box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.281);
                     }
           </style>
 </head>
 <body>
          <article>
                    <h1>Meu primeiro Formulario</h1>
-                   <form>
-                    <p>Nome: <input type="text" name="Nome" id="nome"></p>
+                   <form action="cadastro.php" method="post" autocomplete="off">
+                    <p><label for="nome">Nome: </label><input type="text" name="Nome" id="nome"></p>
 
-                    <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+                    <p><label for="sobrenome">Sobrenome: </label><input type="text" name="sobrenome" id="sobrenome"></p>
 
                     <p><input type="submit" value="Enviar"></p>
                    </form>
