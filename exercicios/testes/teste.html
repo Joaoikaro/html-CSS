@@ -7,12 +7,26 @@
           <title>testes</title>
 </head>
 <body>
-          <form>
-                    <p><label for="user">username:</label><input type="text" name="user" id="user"></p>
+          <h1>Login Page Test</h1>
+          
+          <form method="post">
+                    <p><label for="user">username:</label><input type="text" name="user" id="user" minlength="4" maxlength="20" placeholder="Your username" autocomplete="username" required></p>
 
-                    <p><label for="password">password:</label><input type="password" name="password" id="password"></p>
+                    <p><label for="password">password:</label><input type="password" name="password" id="password" minlength="8" maxlength="18" placeholder="xxxxxxxx" autocomplete="current-password" required></p>
 
-                    <p><input type="submit" value="Login"></p>
+                    <p><input type="submit" value="Login">
+                    <input type="reset" value="Clear"></p>
           </form>
+
+          <fieldset>
+                    <legend>What your gender?</legend>
+                    <p><label for="M"><input type="radio" name="sex" id="M" value="M">Male</label></p>
+
+                    <p><label for="F"><input type="radio" name="sex" id="F" value="F">Female</label></p>
+
+                    <p><label for="O"><input type="radio" name="sex" id="O" value="other">Other</label></p>
+
+                    <p><label for="N"><input type="radio" name="sex" id="N" value="Undefined">Undefined</label></p>
+          </fieldset>
 </body>
 </html>
