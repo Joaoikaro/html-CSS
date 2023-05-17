@@ -1,23 +1,73 @@
 @charset  "UTF-8";
 
-* {
+@media screen {
+          * {
           padding: 0px;
           border: 0px;
 }
 
 body {
           font-family: Arial, Helvetica, sans-serif;
-          background-color: chartreuse;
+          background-color: rgba(139, 138, 138, 0.171);
 }
 
 body > h1 {
           text-align: center;
-          display: block;
+}
+
+input#button {
+          background-color: white;
 }
 
 article > fieldset > div#login {
           text-align: center;
-          background-color: aqua;
+          position: relative;
+          top: 198px;
+          left: 270px;
+          width: 25em;
+          height: 28em;
+          background-color: lightgoldenrodyellow;
           border: 1px solid black;
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
